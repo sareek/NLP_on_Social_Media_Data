@@ -1,4 +1,4 @@
 .DS_Store
 src/.ipynb_checkpoints/*
-src/*.ipynb
+src/724_project_pull_tweets.ipynb
 
