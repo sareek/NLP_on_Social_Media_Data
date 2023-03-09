@@ -1,16 +1,11 @@
-#!/usr/bin/env python
-# coding: utf-8
+#Obsolete will not be working on OLID dataset. 
+
 
 # In[2]:
 
-
-# import needed libraries
 import pandas as pd 
-
-# import graphing library
 import matplotlib.pyplot as plt
-
-import os  # for OS interface (to get/change directory)
+import os  
 # display and set working/data directory
 os.getcwd()
 os.chdir('D:/spring 23/724-DataAnalytics_SocialMedia/hate_speech')
@@ -96,22 +91,19 @@ for _, row in df.iterrows():
 
 # In[13]:
 
-
 features
 
 
 # In[11]:
 
-
-# Print the top 10 most frequent linguistic features for each class
-print("Top 10 most frequent linguistic features in offensive tweets:")
+print("\nTen most frequent linguist feature in offensive tweets")
 print(linguistic_feature_counts["OFF"].most_common(20))
 
 
 # In[12]:
 
 
-print("\nTop 10 most frequent linguistic features in non-offensive tweets:")
+print("\nTen most frequent linguist feature in non-offensive tweets")
 print(linguistic_feature_counts["NOT"].most_common(20))
 
 
