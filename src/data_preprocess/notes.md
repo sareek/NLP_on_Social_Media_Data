@@ -1,0 +1,3 @@
+# to get location information add location field to user.fields (tested with tweepy)
+# currently tweets are truncated with ... 
+
