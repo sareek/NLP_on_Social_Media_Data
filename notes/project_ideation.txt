@@ -1,0 +1,49 @@
+724 Project Idea
+
+
+April 5 or 6, 4 weeks, 1st draft due
+
+Find a topic trending in twitter
+Pull a number of tweets from there, see if I can do sentiment analysis
+Then see if there is a way to find trends in the twitter users who have strong pos/strong neg
+Can I tell anything about them?  Do they follow similar people?
+
+Are there features about a twit that can predict the strength oof their polarization, like how many followers, how many ppl they follow, tweet frequency, etc.?
+
+Possible workflow:
+
+1. Pick Topic X
+2. Collect 1000 tweets on X
+3. Analyze the twit stats (# follows, # followers, tweet frequency, age of Acct, time of day, day of week, length of tweet, # impressions, # responses/retweets, is-retweet, …)
+4. Analyze sentiment
+5. Sentiment Score (can I get sentiment strength somehow?  This seems key)
+6. Does it make sense to analyze the ppl they follow or who follows them?
+7. Visualize my findings, draw any conclusions.  Make some sort of sentiment profile using some stats/features.
+    1. See what’s in common for the top 10% and bottom 10% scores
+    2. Histograms and quartiles, mirror them (disregard if super positive or super negative, just use their position on the range of scores and look at extrema vs neutrals)
+8. If nothing pops out, maybe pick 2 topics that are political and 2 topics that are charged but not political, see if they have similar profiles.  Make a pipeline.
+    1. Non-political: #chrisrocklive,
+    2. Political: CPAC,
+
+RE Sentiment Score:
+Methods for Calculating Sentiment Score for Text
+https://www.analyticsvidhya.com › blog › 2021/12 › di...
+
+Dec 1, 2021 — In this method, we will calculate the Sentiment Scores by classifying and counting the Negative and Positive words from the given text and ...
+
+
+Design your own Sentiment Score - Towards Data Science
+https://towardsdatascience.com › design-your-own-senti...
+
+May 4, 2021 — Sentiment Analysis in Python Pandas, create your own sentiment score using positive and negative words list.
+‎Sentiment Analysis In Python... · ‎Data We Used · ‎Data Pre-Processing
+
+(Source)
+Sentiment scores are a metric for measuring customer sentiment. Scores can range from 0-100, where 100 is the most positive possible outcome and 0 is the least. Positive words are assigned a +1 scoring, while negative words are assigned a -1 scoring in speech analysis software.
+
+Chat w/ Team and Dr. Zampieri:
+Share the twitter query to run w/ the group, and let them help collect data.
+Collect data by spring break and share. Send to professor so he can review the data.
+Assimilate in a doc before midterm, so we can get feedback.  Get an outline and some visualizations ready.
+Dozens of thousands. Between 10-20k. What features predict polarization strength.
+Important feats,
